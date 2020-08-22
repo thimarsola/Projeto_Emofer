@@ -1,0 +1,33 @@
+//CORES
+$color1: #A3C35A;
+$color2: #4B4B4B;
+$color3: #ffffff;
+//BACKGROUND COLOR
+$bg-color1: #F8F8F8;
+$bg-color2: #1A1A1A;
+$bg-color3: #101010;
+$bg-color4: #E5EBD7;
+$bg-color5: #D7E0C3;
+$bg-color6: #F0F0F0;
+$bg-color7: rgba(#0F0F0F,.4);
+$bg-color8: rgba(#0F0F0F,.8);
+
+//FONT-WEIGHT
+$font-light: 400;
+$font-regular: 500;
+$font-bold: 700;
+
+$theme-colors: () !default;
+$theme-colors: map_merge(
+	(
+	"color1": $color1,
+    "color2": $color2,
+    "color3": $color3,
+	), $theme-colors
+);
+
+//INCLUDES
+@import "includes";
+
+//EXTENDS
+@import "extends";

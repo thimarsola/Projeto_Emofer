@@ -1,0 +1,8 @@
+@mixin transition {
+    transition: ease-in-out .3s all;
+}
+
+@mixin margin{
+	margin: 0;
+	padding: 8rem 0;
+}

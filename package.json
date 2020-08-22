@@ -4,7 +4,7 @@
   "description": "Projeto website Lojas Emofer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sass _cdn/scss/:_cdn/css/ --watch --style=compressed"
   },
   "repository": {
     "type": "git",

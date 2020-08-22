@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+html{
+    height: 100vh;
+    font:{
+        // cada 1rem equivale a 10px
+        size: 62.5%;
+        family: 'Montserrat', sans-serif !important;
+    }
+    body{
+        height: 100vh;
+        font:{
+            size: 1.6rem;
+            weight: $font-light;
+        }
+        color: $color2;       
+    }
+
+    span, a, strong{
+        font:{
+            size: inherit;
+        }
+        color: inherit;
+    }
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 1.6rem;
+    width: 100%;
+}
+
+.btn{
+    display: inline-block;
+    margin: 0;
+    padding: 1.2rem 3.2rem;
+    border-radius: 3px;
+    line-height: auto;
+    cursor: pointer;
+    vertical-align: center;
+    text:{
+        transform: uppercase;
+    }
+}
+
+@each $color, $value in $theme-colors{
+    .btn-#{$color}{
+        background-color: $value;
+        color: $color3;
+
+        &:hover{
+            background-color: darken($value, 10%);
+            @include transition;
+        }
+    }
+}
+
+@media (min-width: 576px){
+    .container{
+        margin: 0 auto;
+        padding: 0 1.6rem;
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px){
+
+    .container{
+        margin: 0 auto;
+        padding: 0 1.6rem;
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px){
+    .container{
+        margin: 0 auto;
+        padding: 0 1.6rem;
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container{
+        margin: 0 auto;
+        padding: 0 1.6rem;
+        max-width: 1140px;
+    }
+}

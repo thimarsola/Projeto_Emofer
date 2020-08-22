@@ -1,0 +1,128 @@
+#header{
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background:{
+		color: $bg-color7;
+	}
+	z-index: 100;
+
+	.header_contact{
+		.container{
+			.header_contact_content{
+				margin: 0;
+				padding: 1rem 0;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				.header_contact_content_socialMedia{
+					margin: 0;
+					padding: 0;
+					&:hover{
+						transform: scale(1.1);
+						@include transition;
+					}
+				}
+
+				.header_contact_content_contact{
+					margin: 0;
+					padding: 0;
+					display: flex;
+					& > a:nth-child(2){
+						margin-left: 3.2rem;
+					}
+
+					a{
+						margin: 0;
+						padding: 0;
+						display: flex;
+						align-self: center;
+						font:{
+							size: 1.2rem;
+							weight: $font-light;
+						}
+						color: $color3;
+
+						&:hover{
+							color: $color1;
+							@include transition;
+							
+							img{
+								transform: scale(1.1);
+								@include transition;
+							}
+						}
+
+						img{
+							margin-right: .6rem;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.header_navbar{
+		margin: 0;
+		padding: 1rem 0;
+		.container{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			.header_menu_section{
+				.header_navbar_nav{
+					.nav{
+						margin: 0;
+						padding: 0;
+						list-style: none;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+
+						& > .nav-item:last-child{
+							padding-right: 0;
+						}
+
+						.nav-item{
+							margin: 0;
+							padding: .8rem 1.6rem;				
+							.nav-link{
+								margin: 0;
+								padding: 0;
+								font:{
+									size: 1.4rem;
+									weight: $font-regular;
+								}
+								color: $color3;
+
+								&:hover{
+									color: $color1;
+									@include transition;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.hide{
+	height: 0;
+	overflow: hidden;
+	transition-duration: .3s;
+}
+
+.dark{
+	background-color: $bg-color8 !important;
+	backdrop-filter: blur(4px);
+	transition-duration: .3s;
+	img{
+		height: 70px !important;
+		transition-duration: .3s;
+	}
+}
