@@ -114,15 +114,15 @@
 .hide{
 	height: 0;
 	overflow: hidden;
-	transition-duration: .3s;
+	@include transition;
 }
 
 .dark{
 	background-color: $bg-color8 !important;
 	backdrop-filter: blur(4px);
-	transition-duration: .3s;
+	@include transition;
 	img{
 		height: 70px !important;
-		transition-duration: .3s;
+		@include transition;
 	}
 }

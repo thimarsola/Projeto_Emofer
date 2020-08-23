@@ -56,8 +56,13 @@ function smoothScrollTo(endX, endY, duration) {
 // Stick navbar
 window.addEventListener("scroll", function(){
     const headerContact = document.querySelector(".header_contact");
-    headerContact.classList.toggle("hide", window.scrollY > 0);
-
     const header = document.querySelector("#header");
-    header.classList.toggle("dark", window.scrollY > 0);
+
+    if(window.scrollY > 0){
+        headerContact.classList.add("hide")
+        header.classList.add("dark")
+    }else{
+        headerContact.classList.remove("hide")
+        header.classList.remove("dark")
+    }
 })
