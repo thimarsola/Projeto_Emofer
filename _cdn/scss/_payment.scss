@@ -1,0 +1,28 @@
+#main_payment{
+	@include margin;
+	background:{
+		color: $bg-color1	;
+	}
+
+	.main_payment_header{
+		margin-bottom: 6rem;
+		@extend %titleCenter;
+	}
+
+	.main_payment_content{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+		gap: 20px;
+
+		.main_payment_content_card{
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+}

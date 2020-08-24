@@ -2,6 +2,7 @@
 	@include margin;
 	.container{
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
 
 		.main_about_content{

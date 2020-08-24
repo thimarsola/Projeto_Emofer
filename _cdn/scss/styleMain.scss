@@ -1,10 +1,10 @@
-// mixins
+// Mixins
 @import "mixins";
-// boot
+// Boot
 @import "boot";
-// header
+// Header
 @import "headerHome";
-// cta
+// CTA
 @import "ctaHome";
 // Main CTA
 @import "budget";
@@ -14,6 +14,14 @@
 @import "featuredHome";
 // Most viwed products
 @import "viewedHome";
+// Banner
+@import "bannerHome";
+// Partners
+@import "partners";
+// Payment
+@import "payment";
+// Footer
+@import "footer";
 
 // media query
 @import "mediaQueryHome";

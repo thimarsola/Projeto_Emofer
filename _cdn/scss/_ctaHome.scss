@@ -1,11 +1,13 @@
 #main_cta{
 	width: 100%;
-	height: 100vh;
+	height: 100vh !important;
 	position: relative;
 	top: 0;
 	left: 0;
 	background:{
 		image: url('../img/bg-home.jpg');
+		size: cover;
+		attachment: fixed;
 	}
 	display: flex;
 	justify-content: center;
