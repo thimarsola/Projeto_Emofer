@@ -39,7 +39,7 @@
 				justify-content: center;
 				align-items: center;
 
-				background-color: $color1;
+				background-color: rgba($color1, .95);
 
 				.header_navbar_nav{
 					display: block;
@@ -104,7 +104,7 @@
 			}
 		}
 	}
-
+	
 	#main_about{
 		.container{
 			.main_about_content{

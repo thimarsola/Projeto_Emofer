@@ -3,13 +3,14 @@ let show = true;
 
 const menuSection = document.querySelector(".header_menu_section")
 const menuToggle = menuSection.querySelector(".header_menu_section_toggle")
+const navLink = menuSection.querySelector(".nav-link")
 
 menuToggle.addEventListener("click", () => {
 
 	document.body.style.overflow = show ? "hidden" : "initial"
 
 	menuSection.classList.toggle("on", show)
-	show = !show;
+    show = !show;
 })
 
 // GoTo
