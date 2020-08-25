@@ -1,0 +1,10 @@
+#main_title{
+	@include marginTitle;
+	background:{
+		color: $bg-color1;
+	}
+
+	.main_title_header{
+		@extend %titlePage;
+	}
+}

@@ -41,7 +41,6 @@ html{
     margin: 0;
     padding: 1.2rem 3.2rem;
     border-radius: 3px;
-    line-height: auto;
     cursor: pointer;
     vertical-align: center;
     text:{
@@ -50,13 +49,25 @@ html{
 }
 
 @each $color, $value in $theme-colors{
-    .btn-#{$color}{
-        background-color: $value;
-        color: $color3;
+    @if $color == color3{
+        .btn-#{$color}{
+            background-color: $value;
+            color: $color2;
 
-        &:hover{
-            background-color: darken($value, 10%);
-            @include transition;
+            &:hover{
+                background-color: darken($value, 10%);
+                @include transition;
+            }
+        }
+    }@else{
+        .btn-#{$color}{
+            background-color: $value;
+            color: $color3;
+
+            &:hover{
+                background-color: darken($value, 10%);
+                @include transition;
+            }
         }
     }
 }

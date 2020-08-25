@@ -60,3 +60,17 @@
 		border: 1.5px solid $color1;
 	}
 }
+
+%titlePage{
+	h1{
+		margin: 0;
+		padding: 0;
+		font:{
+			size: 3rem;
+			weight: $font-regular;
+		}
+		text:{
+			align: left;
+		}
+	}	
+}

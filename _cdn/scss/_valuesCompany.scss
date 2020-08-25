@@ -1,0 +1,60 @@
+#main_values{
+	@include margin;
+	background:{
+		color: $bg-color1;
+	}
+
+	.container{
+		display: flex;
+		justify-content: space-between;
+		align-items: start;
+		flex-wrap: wrap;
+
+		.main_values_card{
+			flex-basis: calc(33.3333% - 3.2rem);
+			margin: 0;
+			padding: 1.6rem;
+
+			.main_values_card_header{
+				margin-bottom: 0.8rem;
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+
+				img{
+					margin-bottom: 2.4rem;
+				}
+
+				p{
+					margin: 0;
+					padding: 0;
+					font:{
+						size: 1.8rem;
+						weight: $font-regular;
+					}
+					text:{
+						align: center;
+					}
+				}
+			}
+
+			.main_values_card_content{
+				p, li{
+					margin: 0;
+					padding: 0;
+					font:{
+						size: 1.4rem;
+						weight: $font-light;
+					}
+					text:{
+						align: justify;
+					}
+				}
+
+				li{
+					list-style-position: inside;
+				}
+			}
+		}
+	}
+}
