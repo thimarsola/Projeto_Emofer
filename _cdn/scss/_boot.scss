@@ -46,6 +46,8 @@ html{
     text:{
         transform: uppercase;
     }
+    outline: none;
+    border: none;
 }
 
 @each $color, $value in $theme-colors{

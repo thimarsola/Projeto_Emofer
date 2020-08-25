@@ -1,0 +1,35 @@
+#main_services{
+	margin: 0;
+	padding: 0;
+
+	.main_services_header{
+		@include marginTitle;
+		background:{
+			color: $bg-color1;
+		}
+		@extend %titlePage;
+	}
+
+	.main_services_content{
+		@include margin;
+
+		ul{
+			list-style-position: inside;
+		}
+
+		p, li{
+			margin: 0;
+			padding: 0;
+			font:{
+				size: 1.6rem;
+				weight: $font-light;
+			}
+			text:{
+				align: justify;
+			}
+			line:{
+				height: 2rem;
+			}
+		}
+	}
+}
