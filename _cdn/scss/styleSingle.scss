@@ -4,12 +4,8 @@
 @import "boot";
 // Header
 @import "headerPage";
-// Title
-@import "titlePage";
-// Map
-@import "map";
-// Form
-@import "form";
+// information
+@import "information";
 
 // Payment
 @import "payment";
@@ -17,4 +13,4 @@
 @import "footer";
 
 // media query
-@import "mediaQueryContact";
+@import "mediaQuerySingle";

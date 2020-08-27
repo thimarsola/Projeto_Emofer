@@ -5,6 +5,7 @@
 	background:{
 		color: $color3;
 	}
+	z-index: 10;
 
 	.header_contact{
 		background: {
@@ -115,15 +116,15 @@
 }
 
 .hide{
-	height: 0;
-	overflow: hidden;
-	@include transition;
+	display: none;
+	transition: display .5s linear;
 }
 
 .sticky{
 	position: fixed;
 	background-color: rgba($color3, .8) !important;
 	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
 	box-shadow: 0 0 10px rgba(#333, .3);
 	@include transition;
 	img{
