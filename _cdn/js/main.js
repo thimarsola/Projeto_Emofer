@@ -12,6 +12,15 @@ menuToggle.addEventListener("click", () => {
     show = !show;
 })
 
+// Stick navbar
+window.addEventListener("scroll", function(){
+    const headerContact = document.querySelector(".header_contact");
+    const header = document.querySelector("#header");
+
+    headerContact.classList.toggle("hide", window.scrollY > 0)
+    header.classList.toggle("dark", window.scrollY > 0)
+})
+
 // GoTo
 const menuItens = document.querySelectorAll(['nav a[href^="#"]', '#main_cta a[href^="#"]']);
 menuItens.forEach(item =>{
@@ -52,12 +61,3 @@ function smoothScrollTo(endX, endY, duration) {
         window.scroll(newX, newY);
     }, 1000 / 60); // 60 fps
 }
-
-// Stick navbar
-window.addEventListener("scroll", function(){
-    const headerContact = document.querySelector(".header_contact");
-    const header = document.querySelector("#header");
-
-    headerContact.classList.toggle("hide", window.scrollY > 0)
-    header.classList.toggle("dark", window.scrollY > 0)
-})
