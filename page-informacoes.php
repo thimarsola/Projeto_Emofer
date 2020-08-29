@@ -21,7 +21,8 @@
                 <div class="main_information_content_grid">
                     <?php
                     $args = [
-                        'post_per_page' => -1
+                        'post_per_page' => -1,
+                        'order' => 'ASC'
                     ];
 
                     //the_query

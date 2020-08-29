@@ -1,7 +1,7 @@
 <ul>
     <?php
         $pageTitle = get_the_title();
-        $informationtList = get_posts(['sort_order' => 'asc']);
+        $informationtList = get_posts(['numberposts' => -1, 'order' => 'ASC']);
         foreach ($informationtList as $information):
     ?>     
             <?php if ($information->post_title == $pageTitle): ?>
