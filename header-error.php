@@ -75,4 +75,4 @@
         <title>Lojas Emofer | Ferros e Ferragens</title>
         <?php wp_head(); ?>
     </head>
-    <body id="home" <?php body_class(); ?>>
+    <body id="home">
