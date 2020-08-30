@@ -1,0 +1,28 @@
+{
+    "name": "thimarsola/projeto-emofer",
+    "description": "Projeto website Lojas Emofer",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thiago Marsola",
+            "email": "thiago.marsola@goognet.com.br",
+            "role": "Developer",
+            "homepage": "https://goognet.com.br"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.1.*"
+    }
+}

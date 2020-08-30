@@ -50,7 +50,7 @@
                             <h1>Entre em contato conosco</h1>
                         </header>
                         <!-- form -->
-                        <form action="#">
+                        <form action="<?= get_template_directory_uri() ?>/_cdn/php/send-mail.php" method="POST">
                             <!-- name -->
                             <div class="form-group">
                                 <input name="name" type="text" placeholder="Nome">

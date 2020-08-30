@@ -4,37 +4,35 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- SCHEMA.ORG -->
-        <meta itemprop="name" content="Lojas Emofer | Ferros e Ferragens">
-        <meta itemprop="description" content="Emofer intensamente no mercado de aços planos e laminados desde o ano de 1991. Somos parceiros das melhores e maiores usinas do Brasil">
-        <meta itemprop="image" content="https://www.emofer.com.br/_cdn/img/post.jpg">
+        <meta itemprop="name" content="Lojas Emofer | <?php the_title(); ?>">
+        <meta itemprop="description" content="<?= get_the_excerpt(); ?>">
+        <meta itemprop="image" content="<?= get_home_url(); ?>/_cdn/img/post.jpg">
         <meta itemprop="url" content="http://www.emofer.com.br/">
         <!-- OPEN GRAPH -->
         <meta property="og:locale" content="pt_BR" />
-        <meta property="og:url" content="http://www.emofer.com.br/">
-        <meta property="og:title" content="Lojas Emofer | Ferros e Ferragens">
+        <meta property="og:region" content="Brasil">
+        <meta property="og:url" content="<?= get_permalink(); ?>">
+        <meta property="og:title" content="Lojas Emofer | <?php the_title(); ?>">
         <meta property="og:site_name" content="Lojas Emofer">
-        <meta property="og:description" content="Emofer intensamente no mercado de aços planos e laminados desde o ano de 1991. Somos parceiros das melhores e maiores usinas do Brasil">
-        <meta property="og:image" content="http://www.emofer.com.br/">
+        <meta property="og:description" content="<?= get_the_excerpt(); ?>">
+        <meta property="og:image" content="<?= get_home_url(); ?>">
         <meta property="og:image:type" content="image/jpeg">
         <meta property="og:image:width" content="800">
         <meta property="og:image:height" content="600">
         <meta property="og:type" content="website">
-        <!--CANONICAL-->
-        <link rel="canonical" href="http://www.emofer.com.br/" />
-        <link rel="home" href="http://www.emofer.com.br/" />
         <!-- DESCRIPTION -->
-        <meta name="description" content="Emofer intensamente no mercado de aços planos e laminados desde o ano de 1991. Somos parceiros das melhores e maiores usinas do Brasil">
+        <meta name="description" content="<?= get_the_excerpt(); ?>">
         <!-- ROBOTS -->
         <meta name="robots" content="index, follow">
         <meta name="googlebot" content="index, follow">
         <!-- AUTHOR -->
         <meta name="author" content="Goognet Solução Digital - http://www.goognet.com.br">
         <!-- FACEBOOK -->
-        <meta property="og:url" content="http://www.emofer.com.br/" />
+        <meta property="og:url" content="<?= get_home_url(); ?>" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Lojas Emofer | Ferros e Ferragens" />
-        <meta property="og:description" content="Emofer intensamente no mercado de aços planos e laminados desde o ano de 1991. Somos parceiros das melhores e maiores usinas do Brasil" />
-        <meta property="og:image" content="http://www.emofer.com.br/_cdn/img/post.jpg" />
+        <meta property="og:title" content="Lojas Emofer | <?php the_title(); ?>" />
+        <meta property="og:description" content="<?= get_the_excerpt(); ?>" />
+        <meta property="og:image" content="<?= get_home_url(); ?>/_cdn/img/post.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:locale" content="pt_BR" />
@@ -42,11 +40,11 @@
         <meta property="article:publisher" content="https://www.facebook.com/goognetsolucao/" />
         <!-- TWITTER -->
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:domain" content="http://www.emofer.com.br/" />
-        <meta name="twitter:title" content="Emofer intensamente no mercado de aços planos e laminados desde o ano de 1991. Somos parceiros das melhores e maiores usinas do Brasil" />
-        <meta name="twitter:description" content="Lojas Emofer | Ferros e Ferragens" />
-        <meta name="twitter:image" content="http://www.emofer.com.br/_cdn/img/post.jpg" />
-        <meta name="twitter:url" content="http://www.emofer.com.br/" />
+        <meta name="twitter:domain" content="<?= get_home_url(); ?>" />
+        <meta name="twitter:title" content="<?= get_the_excerpt(); ?>" />
+        <meta name="twitter:description" content="Lojas Emofer | <?php the_title(); ?>" />
+        <meta name="twitter:image" content="<?= get_home_url(); ?>/_cdn/img/post.jpg" />
+        <meta name="twitter:url" content="h<?= get_home_url(); ?>" />
         <!-- REGION -->
         <meta name="geo.region" content="BR-SP" />
         <meta name="geo.placename" content="S&atilde;o Paulo" />
@@ -72,7 +70,7 @@
         <meta name="msapplication-TileImage" content="<?= get_template_directory_uri(); ?>/_cdn/img/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
         <!--TITLE-->
-        <title>Lojas Emofer | Ferros e Ferragens</title>
+        <title>Lojas Emofer | <?php the_title(); ?></title>
         <?php wp_head(); ?>
     </head>
     <body id="home">

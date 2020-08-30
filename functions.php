@@ -33,6 +33,7 @@ function loadScripts()
     } else {
         wp_enqueue_script('pages', get_template_directory_uri() . '/_cdn/js/pages.js', [], '1.0.0', true);
     }
+    
 }
 
 add_action('wp_enqueue_scripts', 'loadScripts');
