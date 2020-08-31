@@ -22,7 +22,8 @@
                     <?php
                     $args = [
                         'post_per_page' => -1,
-                        'order' => 'ASC'
+                        'order' => 'ASC',
+                        'orderby' => 'title'
                     ];
 
                     //the_query

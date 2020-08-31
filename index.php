@@ -84,21 +84,21 @@
                 <article class="main_featured_content_card">
                     <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-viga-laminada.png" alt="Lojas Emofer - Viga Laminada">
                     <h2>
-                        <a href="#" title="Lojas Emofer - Viga Laminada" target="_blank">Viga Laminada</a>
+                        <a href="<?= get_permalink(get_post(429)); ?>" title="Lojas Emofer - Viga Laminada" target="_blank">Viga Laminada</a>
                     </h2>
                 </article>
                 <!-- featured card -->
                 <article class="main_featured_content_card">
                     <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-tubo-ferro-retangular-galvanizado.png" alt="Lojas Emofer - ubo de Ferro Retangular Galvanizado">
                     <h2>
-                        <a href="#" title="Lojas Emofer - Tubo de Ferro Retangular Galvanizado" target="_blank">Tubo de Ferro Retangular Galvanizado</a>
+                        <a href="<?= get_permalink(get_post(433)); ?>" title="Lojas Emofer - Tubo de Ferro Retangular Galvanizado" target="_blank">Tubo de Ferro Retangular Galvanizado</a>
                     </h2>
                 </article>
                 <!-- featured card -->
                 <article class="main_featured_content_card">
                     <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-tubo-galvanizado.png" alt="Lojas Emofer - Tubo Galvanizado">
                     <h2>
-                        <a href="#" title="Lojas Emofer - Tubo Galvanizado" target="_blank">Tubo Galvanizado</a>
+                        <a href="<?= get_permalink(get_post(377)); ?>" title="Lojas Emofer - Tubo Galvanizado" target="_blank">Tubo Galvanizado</a>
                     </h2>
                 </article>
             </div>
@@ -121,19 +121,19 @@
                 <article class="main_viewed_content_card">
                     <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-tubo-industrial-quadrado.jpg" alt="Lojas Emofer - Tubo Industrial Quadrado">
                     <h2>Tubo Industrial Quadrado</h2>
-                    <a href="#" class="btn btn-color1" title="Lojas Emofer - Tubo Industrial Quadrado" target="_blank">Saiba mais</a>
+                    <a href="<?= get_permalink(get_post(387)); ?>" class="btn btn-color1" title="Lojas Emofer - Tubo Industrial Quadrado" target="_blank">Saiba mais</a>
                 </article>
                 <!-- viewed card -->
                 <article class="main_viewed_content_card">
                     <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-viga-u-enrijecida.jpg" alt="Lojas Emofer - Viga U Enrijecida">
                     <h2>Viga U Enrijecida</h2>
-                    <a href="#" class="btn btn-color1" title="Lojas Emofer - Viga U Enrijecida" target="_blank">Saiba mais</a>
+                    <a href="<?= get_permalink(get_post(418)); ?>" class="btn btn-color1" title="Lojas Emofer - Viga U Enrijecida" target="_blank">Saiba mais</a>
                 </article>
                 <!-- viewed card -->
                 <article class="main_viewed_content_card">
                     <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-viga-i-laminada.jpg" alt="Lojas Emofer - Viga I Laminada">
                     <h2>Viga I Laminada</h2>
-                    <a href="#" class="btn btn-color1" title="Lojas Emofer - Viga I Laminda" target="_blank">Saiba mais</a>
+                    <a href="<?= get_permalink(get_post(406)); ?>" class="btn btn-color1" title="Lojas Emofer - Viga I Laminda" target="_blank">Saiba mais</a>
                 </article>
             </div>
         </div>

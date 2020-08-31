@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://www.emofer.com.br/robots.txt
+Sitemap: http://www.emofer.com.br/sitemap.xml
