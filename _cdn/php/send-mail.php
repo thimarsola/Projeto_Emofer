@@ -28,15 +28,17 @@ $email->add(
         <br>
         <p><strong>Eu gostaria de falar sobre:</strong></p>
         <p>{$subjectForm}</p>
+        <br>
         <p><strong>Mensagem:</strong><p>
         <br>
         <p>$messageForm</p>",
-        "Thiago Marsola",
-        "tmarsola94@gmail.com"
+        "Lojas Emofer",
+        "emofer@emofer.com.br"
 )->send();
 
 if (!$email->error()) {
-   
+   echo "<script>alert('Mensagem enviada com sucesso! Em breve estaremos entrando em contato!');</script>";
+    echo "<meta HTTP-EQUIV='refresh' CONTENT='0;URL=http://emofer.com.br'>";  
 } else {
     echo $email->error()->getMessage();
 }
