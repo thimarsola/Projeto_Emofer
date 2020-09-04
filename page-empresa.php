@@ -19,7 +19,7 @@
         <div class="container">
             <!-- text -->
             <div class="main_content_text">
-                <p>Atuamos intensamente no mercado de aços planos e laminados desde o ano de 1991. Somos parceiros das melhores e maiores usinas do Brasil, como Gerdau, CSN, Usiminas, Arcelormittal, Ciafal e Barra Mansa.</p>
+                <p>Atuamos intensamente no mercado de aços planos e laminados desde o ano de 1991. Somos parceiros das melhores e maiores usinas do Brasil, como Gerdau, CSN, Usiminas, Arcelormittal, Ciafal e Simec, dentre outros.</p>
                 <br>
                 <p>Dispomos de modernos e eficientes equipamentos de corte e dobra de chapa e um diversificado leque de ferros laminados. Fazemos corte e dobra de chapa sob medida no menor tempo e com a melhor qualidade do mercado.</p>
                 <br>

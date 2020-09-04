@@ -11,7 +11,7 @@
                 <!-- content -->
                 <div class="footer_company_about_content">
                     <img src="<?= get_template_directory_uri(); ?>/_cdn/img/logo-footer.svg" alt="Lojas Emofer">
-                    <p>Atuamos intensamente no mercado de aços planos e laminados desde o ano de 1991. Somos parceiros das melhores e maiores usinas do Brasil, como Gerdau, CSN, Usiminas, Arcelormittal, Ciafal e Barra Mansa.</p>
+                    <p>Atuamos intensamente no mercado de aços planos e laminados desde o ano de 1991. Somos parceiros das melhores e maiores usinas do Brasil, como Gerdau, CSN, Usiminas, Arcelormittal, Ciafal e Simec, dentre outros.</p>
                 </div>
             </div>
             <!-- Sitemap -->
@@ -23,7 +23,7 @@
                 </div>
                 <!-- content -->
                 <div class="footer_company_sitemap_content">
-                    <?php wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container_class' => '')); ?>
+                    <?php wp_nav_menu(array('theme_location' => 'footer-menu', 'container_class' => '')); ?>
                 </div>
             </div>
             <!-- contact -->
@@ -41,9 +41,14 @@
                     <br>
                     <p><strong>E-mail:</strong> <a href="mailto:emofer@emofer.com.br" title="E-mail Lojas Emofer">emofer@emofer.com.br</a></p>
                     <br>
-                    <a href="https://www.facebook.com/lojasemofer" title="Facebook Lojas Emofer" target="_blank">
-                        <img src="<?= get_template_directory_uri(); ?>/_cdn/img/vt-facebook-footer.svg" alt="Facebook Lojas Emofer">
-                    </a>
+                    <div class="footer_company_contact_content_socialMedia">
+                        <a href="https://www.facebook.com/lojasemofer" title="Facebook Lojas Emofer" target="_blank">
+                            <img src="<?= get_template_directory_uri(); ?>/_cdn/img/vt-facebook-footer.svg" alt="Facebook Lojas Emofer">
+                        </a>
+                        <a href="https://www.instagram.com/lojas_emofer/?hl=pt-br" title="Instagram Lojas Emofer" target="_blank">
+                            <img src="<?= get_template_directory_uri(); ?>/_cdn/img/vt-instagram-footer.svg" alt="Instagram Lojas Emofer">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

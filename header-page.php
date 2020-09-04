@@ -72,6 +72,8 @@
         <!--TITLE-->
         <title>Lojas Emofer | <?php the_title(); ?></title>
         <?php wp_head(); ?>
+        <!--webmaster tools-->
+        <meta name="google-site-verification" content="W6ERtuiA4dl4Tf8JlFR1ITSJ4T1E6zaqon8FvRifn4w" />
     </head>
     <body id="home">
 
@@ -81,10 +83,13 @@
             <div class="header_contact">
                 <div class="container">
                     <div class="header_contact_content">
-                        <!-- facebook -->
+                        <!-- social media -->
                         <div class="header_contact_content_socialMedia">
                             <a href="https://www.facebook.com/lojasemofer" title="Facebook Lojas Emofer" target="_blank">
                                 <img src="<?= get_template_directory_uri(); ?>/_cdn/img/vt-facebook.svg" alt="Facebook Lojas Emofer">
+                            </a>
+                            <a href="https://www.instagram.com/lojas_emofer/?hl=pt-br" title="Instagram Lojas Emofer" target="_blank">
+                                <img src="<?= get_template_directory_uri(); ?>/_cdn/img/vt-instagram.svg" alt="Instagram Lojas Emofer">
                             </a>
                         </div>
                         <!-- Contact -->

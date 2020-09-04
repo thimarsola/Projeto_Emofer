@@ -44,13 +44,13 @@
                             <tbody class="main_product_content_text_table_body">
                                 <tr class="main_product_content_text_table_content">
                                     <td>14</td>
-                                    <td>2</td>
+                                    <td>1,9</td>
                                     <td>16</td>
                                 </tr>
                                 <tr class="main_product_content_text_table_content">
                                     <td>16</td>
                                     <td>1,5</td>
-                                    <td>12,5</td>
+                                    <td>12</td>
                                 </tr>
                                 <tr class="main_product_content_text_table_content">
                                     <td>18</td>
@@ -60,7 +60,7 @@
                                 <tr class="main_product_content_text_table_content">
                                     <td>20</td>
                                     <td>0,9</td>
-                                    <td>7,3</td>
+                                    <td>7,2</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -82,13 +82,8 @@
                             <tbody class="main_product_content_text_table">
                                 <tr class="main_product_content_text_table_content">
                                     <td>1/4'</td>
-                                    <td>6,35</td>
+                                    <td>6,3</td>
                                     <td>50</td>
-                                </tr>
-                                <tr class="main_product_content_text_table_content">
-                                    <td>8</td>
-                                    <td>4,25</td>
-                                    <td>34</td>
                                 </tr>
                                 <tr class="main_product_content_text_table_content">
                                     <td>5/16'</td>
@@ -98,7 +93,7 @@
                                 <tr class="main_product_content_text_table_content">
                                     <td>3/8'</td>
                                     <td>9,5</td>
-                                    <td>76</td>
+                                    <td>75</td>
                                 </tr>
                                 <tr class="main_product_content_text_table_content">
                                     <td>1/2'</td>
@@ -108,12 +103,12 @@
                                 <tr class="main_product_content_text_table_content">
                                     <td>5/8'</td>
                                     <td>16</td>
-                                    <td>130</td>
+                                    <td>125</td>
                                 </tr>
                                 <tr class="main_product_content_text_table_content">
                                     <td>3/4'</td>
                                     <td>19</td>
-                                    <td>155</td>
+                                    <td>150</td>
                                 </tr>
                                 <tr class="main_product_content_text_table_content">
                                     <td>7/8'</td>
@@ -172,29 +167,39 @@
                             <!-- body -->
                             <tbody class="main_product_content_text_table">
                                 <tr class="main_product_content_text_table_content">
-                                    <td>3/16'</td>
-                                    <td>4,75</td>
-                                    <td>38</td>
-                                </tr>
+                                    <td>18</td>
+                                    <td>1,2</td>
+                                    <td>10</td>
+                                </tr>                                
                                 <tr class="main_product_content_text_table_content">
-                                    <td>11</td>
-                                    <td>3</td>
-                                    <td>25</td>
-                                </tr>
-                                <tr class="main_product_content_text_table_content">
+                                    <td>16</td>
+                                    <td>1,5</td>
                                     <td>12</td>
-                                    <td>2,65</td>
-                                    <td>21,5</td>
                                 </tr>
                                 <tr class="main_product_content_text_table_content">
                                     <td>14</td>
                                     <td>2</td>
                                     <td>16</td>
+                                </tr>                                
+                                <tr class="main_product_content_text_table_content">
+                                    <td>12</td>
+                                    <td>2,65</td>
+                                    <td>21,2</td>
+                                </tr> 
+                                <tr class="main_product_content_text_table_content">
+                                    <td>1/8'</td>
+                                    <td>3</td>
+                                    <td>24</td>
                                 </tr>
                                 <tr class="main_product_content_text_table_content">
-                                    <td>16</td>
-                                    <td>1,5</td>
-                                    <td>12,5</td>
+                                    <td>8</td>
+                                    <td>4.5</td>
+                                    <td>34</td>
+                                </tr>
+                                <tr class="main_product_content_text_table_content">
+                                    <td>3/16'</td>
+                                    <td>4,75</td>
+                                    <td>38</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -216,48 +221,43 @@
                             <tbody class="main_product_content_text_table">
                                 <tr class="main_product_content_text_table_content">
                                     <td>26</td>
-                                    <td>0,45</td>
-                                    <td>4</td>
+                                    <td>0,5</td>
+                                    <td>3,9</td>
                                 </tr>
                                 <tr class="main_product_content_text_table_content">
                                     <td>24</td>
-                                    <td>0,6</td>
-                                    <td>5,2</td>
+                                    <td>0,65</td>
+                                    <td>5,07</td>
                                 </tr>
                                 <tr class="main_product_content_text_table_content">
                                     <td>22</td>
                                     <td>0,8</td>
-                                    <td>6,4</td>
+                                    <td>6,24</td>
                                 </tr>
                                 <tr class="main_product_content_text_table_content">
                                     <td>20</td>
                                     <td>0,95</td>
-                                    <td>7,5</td>
+                                    <td>7,41</td>
                                 </tr>
                                 <tr class="main_product_content_text_table_content">
                                     <td>18</td>
                                     <td>1,25</td>
-                                    <td>5,4</td>
+                                    <td>9,75</td>
                                 </tr>
                                 <tr class="main_product_content_text_table_content">
                                     <td>16</td>
                                     <td>1,55</td>
-                                    <td>12,96</td>
+                                    <td>12,09</td>
                                 </tr>
                                 <tr class="main_product_content_text_table_content">
                                     <td>14</td>
                                     <td>1,95</td>
-                                    <td>16</td>
-                                </tr>
-                                <tr class="main_product_content_text_table_content">
-                                    <td>12</td>
-                                    <td>2,7</td>
-                                    <td>21,6</td>
+                                    <td>15,21</td>
                                 </tr>
                             </tbody>
                         </table>
-                        <!-- chapa xadrez -->
-                        <h2>Chapa Xadrez</h2>
+                        <!-- Chapa Antiderrapante -->
+                        <h2>Chapa Antiderrapante</h2>
                         <table class="table">
                             <!-- head -->
                             <thead class="main_product_content_text_table">
@@ -273,19 +273,24 @@
                             <!-- body -->
                             <tbody class="main_product_content_text_table">
                                 <tr class="main_product_content_text_table_content">
-                                    <td>3/16'</td>
-                                    <td>4,75</td>
-                                    <td>42</td>
-                                </tr>
-                                <tr class="main_product_content_text_table_content">
                                     <td>1/8'</td>
                                     <td>3</td>
                                     <td>27</td>
                                 </tr>
                                 <tr class="main_product_content_text_table_content">
+                                    <td>3/16'</td>
+                                    <td>4,75</td>
+                                    <td>41</td>
+                                </tr>
+                                <tr class="main_product_content_text_table_content">
                                     <td>1/4'</td>
-                                    <td>6,35</td>
-                                    <td>55</td>
+                                    <td>6,3</td>
+                                    <td>54</td>
+                                </tr>
+                                <tr class="main_product_content_text_table_content">
+                                    <td>5/16'</td>
+                                    <td>8</td>
+                                    <td>68</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -307,9 +312,9 @@
                         </header>
                         <!-- list -->
                         <div class="main_product_aside_menu_list">
-                           <!--products list-->
-                               <?php get_template_part('template-parts/content', 'products-list'); ?>
-                           <!--end of product list-->
+                            <!--products list-->
+                            <?php get_template_part('template-parts/content', 'products-list'); ?>
+                            <!--end of product list-->
                         </div>
                     </div>
                     <!-- contact -->

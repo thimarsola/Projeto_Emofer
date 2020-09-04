@@ -1,58 +1,58 @@
 #main_featured{
-	@include margin;
-	background:{
-		color: $bg-color1;
-	}
+    @include margin;
+    background:{
+        color: $bg-color1;
+    }
 
-	.main_featured_header{
-		margin-bottom: 6rem;
-		@extend %titleCenter;
-	}
+    .main_featured_header{
+        margin-bottom: 6rem;
+        @extend %titleCenter;
+    }
 
-	.main_featured_content{
-		margin: 0;
-		padding: 0;
-		width: 100%;
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-		gap: 20px;
+    .main_featured_content{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
 
-		.main_featured_content_card{
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center; 
+        .main_featured_content_card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
 
-			img{
-				width: 100%;
-				max-width: 22rem;
-				height: auto;
-				object:{
-					fit: cover;
-					position: center;
-				}
-			}
+            img{
+                width: 100%;
+                max-width: 22rem;
+                height: auto;
+                object:{
+                    fit: cover;
+                    position: center;
+                }
+            }
 
-			h2{
-				margin-top: 3.2rem;
-				padding: 0;
+            h2{
+                margin-top: 3.2rem;
+                padding: 0;
 
-				font:{
-					size: 2rem;
-					weight: $font-regular;
-				}
+                font:{
+                    size: 2rem;
+                    weight: $font-regular;
+                }
 
-				text:{
-					align: center;
-				}
+                text:{
+                    align: center;
+                }
 
-				a{
-					&:hover{
-						color: $color1;
-						@include transition;
-					}
-				}
-			}
-		}
-	}
+                a{
+                    &:hover{
+                        color: $color1;
+                        @include transition;
+                    }
+                }
+            }
+        }
+    }
 }

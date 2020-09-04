@@ -1,177 +1,182 @@
 #footer{
-	.footer_company{
-		@include margin;
-		background:{
-			color: $bg-color2;
-		}
-		color: $color3;
+    .footer_company{
+        @include margin;
+        background:{
+            color: $bg-color2;
+        }
+        color: $color3;
 
-		.container{
-			width: 100%;
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
+        .container{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
 
-			.footer_about{
-				padding: 1.6rem;
-				flex-basis: 33.3333%;
+            .footer_about{
+                padding: 1.6rem;
+                flex-basis: 33.3333%;
 
-				.footer_company_about_header{
-					margin-bottom: 3.8rem;
-					@extend %titleFooter;
-				}
+                .footer_company_about_header{
+                    margin-bottom: 3.8rem;
+                    @extend %titleFooter;
+                }
 
-				.footer_company_about_content{
-					img{
-						margin-bottom: 2.2rem;
-					}
+                .footer_company_about_content{
+                    img{
+                        margin-bottom: 2.2rem;
+                    }
 
-					p{
-						margin: 0;
-						padding: 0;
-						font:{
-							size: 1.2rem;
-							weight: $font-light;
-						}
-						line-height: 1.5rem;
-						text:{
-							align: justify;
-						}
-					}
-				}
-			}
+                    p{
+                        margin: 0;
+                        padding: 0;
+                        font:{
+                            size: 1.2rem;
+                            weight: $font-light;
+                        }
+                        line-height: 1.5rem;
+                        text:{
+                            align: justify;
+                        }
+                    }
+                }
+            }
 
-			.footer_company_sitemap{
-				padding: 1.6rem;
-				flex-basis: 33.3333%;
+            .footer_company_sitemap{
+                padding: 1.6rem;
+                flex-basis: 33.3333%;
 
-				.footer_company_sitemap_header{
-					margin-bottom: 3.8rem;
-					@extend %titleFooter;
-				}
+                .footer_company_sitemap_header{
+                    margin-bottom: 3.8rem;
+                    @extend %titleFooter;
+                }
 
-				.footer_company_sitemap_content{
-					ul{
-						list-style: none;
-						li{
-							margin: 0;
-							padding: .7rem 0;
-							font:{
-								size: 1.2rem;
-								weight: $font-light;
-							}
-							text:{
-								transform: uppercase;
-							}
+                .footer_company_sitemap_content{
+                    ul{
+                        list-style: none;
+                        li{
+                            margin: 0;
+                            padding: .7rem 0;
+                            font:{
+                                size: 1.2rem;
+                                weight: $font-light;
+                            }
+                            text:{
+                                transform: uppercase;
+                            }
 
-							a{
-								&:hover{
-									color: $color1;
-									@include transition;
-								}
-							}
-						}
-					}
-				}
-			}
+                            a{
+                                &:hover{
+                                    color: $color1;
+                                    @include transition;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
 
-			.footer_company_contact{
-				padding: 1.6rem;
-				flex-basis: 33.3333%;
-				background:{
-					image: url('../img/bg-footer.png');
-					repeat: no-repeat;
-					position: right 70%;
-				}
+            .footer_company_contact{
+                padding: 1.6rem;
+                flex-basis: 33.3333%;
+                background:{
+                    image: url('../img/bg-footer.png');
+                    repeat: no-repeat;
+                    position: right 70%;
+                }
 
-				.footer_company_contact_header{
-					margin-bottom: 3.8rem;
-					@extend %titleFooter;
-				}
+                .footer_company_contact_header{
+                    margin-bottom: 3.8rem;
+                    @extend %titleFooter;
+                }
 
-				.footer_company_contact_content{
-					margin: 0;
-					padding: 0;
+                .footer_company_contact_content{
+                    margin: 0;
+                    padding: 0;
 
-					p{
-						margin: 0;
-						padding: 0;
-						font:{
-							size: 1.2rem;
-							weight: $font-light;
-						}
-						text:{
-							align: justify;
-						}
+                    p{
+                        margin: 0;
+                        padding: 0;
+                        font:{
+                            size: 1.2rem;
+                            weight: $font-light;
+                        }
+                        text:{
+                            align: justify;
+                        }
 
-						a{
-							&:hover{
-								color: $color1;
-								@include transition;
-							}
-						}
-					}
+                        a{
+                            &:hover{
+                                color: $color1;
+                                @include transition;
+                            }
+                        }
+                    }
 
-					a{
-						img{
-							&:hover{
-								transform: scale(1.1);
-								@include transition;
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+                    .footer_company_contact_content_socialMedia{
+                        & > a:first-child{
+                                margin-right: 1rem;
+                            }
+                        a{
+                            img{
+                                &:hover{
+                                    transform: scale(1.1);
+                                    @include transition;
+                                }
+                            }
+                        }   
+                    }
+                }
+            }
+        }
+    }
 
-	.footer_developer{
-		margin: 0;
-		padding: 1.6rem 0;
-		background:{
-			color: $bg-color3;
-		}
-		color:$color3;
+    .footer_developer{
+        margin: 0;
+        padding: 1.6rem 0;
+        background:{
+            color: $bg-color3;
+        }
+        color:$color3;
 
-		.container{
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			align-items: center;
-			& > p{
-				a{
-					font:{
-						weight: $font-regular;
-					}
-				}
-			}
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            & > p{
+                a{
+                    font:{
+                        weight: $font-regular;
+                    }
+                }
+            }
 
-			p{
-				margin: 0;
-				padding: 0;
-				font:{
-					size: 1.2rem;
-					weight: $font-light;
-				}
+            p{
+                margin: 0;
+                padding: 0;
+                font:{
+                    size: 1.2rem;
+                    weight: $font-light;
+                }
 
-				a{
-					margin: 0;
-					padding: 0;
-					&:hover{
-						color: $color1;
-						@include transition;
-					}
-				}
-			}
+                a{
+                    margin: 0;
+                    padding: 0;
+                    &:hover{
+                        color: $color1;
+                        @include transition;
+                    }
+                }
+            }
 
-			& > p:nth-child(2){
-				display: flex;
-				align-items: center;
+            & > p:nth-child(2){
+                display: flex;
+                align-items: center;
 
-				img{
-					margin-right: 0.8rem;
-				}
-			}
-		}
-	}
+                img{
+                    margin-right: 0.8rem;
+                }
+            }
+        }
+    }
 }

@@ -1,34 +1,34 @@
 #main_partners{
-	@include margin;
+    @include margin;
 
-	.main_partners_header{
-		margin-bottom: 6rem;
-		@extend %title;
-	}
+    .main_partners_header{
+        margin-bottom: 6rem;
+        @extend %title;
+    }
 
-	.main_partners_content{
-		margin: 0;
-		padding: 0;
-		width: 100%;
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-		gap: 20px;
+    .main_partners_content{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
 
-		.main_partners_content_card{
-			margin: 0;
-			padding: 2.5rem 0;
-			width: 100%;
-			background:{
-				color: $bg-color9;
-			}
-			display: flex;
-			justify-content: center;
-			align-items: center;
+        .main_partners_content_card{
+            margin: 0;
+            padding: 2.5rem 0;
+            width: 100%;
+            background:{
+                color: $bg-color9;
+            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-			img{
-				width: 100%;
-				height: auto;
-			}
-		}
-	}
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
 }

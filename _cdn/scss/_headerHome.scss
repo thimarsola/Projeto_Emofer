@@ -21,9 +21,18 @@
                 .header_contact_content_socialMedia{
                     margin: 0;
                     padding: 0;
-                    &:hover{
-                        transform: scale(1.1);
-                        @include transition;
+
+                    & > a:first-child{
+                        margin-right: 1rem;
+                    }
+
+                    a{
+                        display: inline-block;
+                        
+                        &:hover{
+                            transform: scale(1.1);
+                            transition: transform .3s ease-in-out;
+                        }
                     }
                 }
 

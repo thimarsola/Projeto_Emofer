@@ -17,29 +17,36 @@
 
         <!--container-->
         <div class="container">
+            <div>
+                <!-- content -->
+                <div class="main_services_content">
+                    <p>Fundada em 1991, a Lojas Emofer tem consolidado seu espaço no ramo através da experiência obtida ao longo dos anos em união com profissionais capacitados. Nossa diversidade de serviços e a alta qualidade dos trabalhos realizados vêm promovendo satisfação e boas parcerias dentro do mercado.</p>
+                    <br>
+                    <p>Tendo como nosso grande objetivo a excelência nos trabalhos prestados, garantimos aos nosso clientes um atendimento customizado e garantia de qualidade absolutamente confiável. Com o uso de modernos e eficientes equipamentos, executamos corte e dobra de chapa sob medida com qualidade e rapidez:</p>
+                    <br>
+                    <ul>
+                        <li>Corte de chapa na medida fornecida pelo cliente na de espessura 0,50 até 1”</li>
+                        <li>Oxicorte em chapas metálicas com espessura variando de ¼” até 1”</li>
+                        <li>Corte de Plasma CNC com espessura de 7.93 até 1"</li>
+                        <li>Dobra de Chapas sob medida espessura de 0,50 até ½"</li>
+                        <li>Mão de obra para corte de chapa espessura 0,50 até 1”</li>
+                        <li>Mão de obra para dobra de chapa espessura 0,50 até ½”</li>
+                    </ul>
+                    <br>
+                    <p>E muito mais!</p>
+                    <br>
+                    <p>Caso o serviço que necessite não esteja listado, consulte-nos por telefone, e-mail ou fax.</p>
+                    <br>
+                    <p>Estamos sempre à sua disposição.</p>
+                </div>
+                <!--end of content-->
 
-            <!-- content -->
-            <div class="main_services_content">
-                <p>Fundada em 1991, a Serralheria Emofer tem consolidado seu espaço no ramo através da experiência obtida ao longo dos anos em união com profissionais capacitados. Nossa diversidade de serviços e a alta qualidade dos trabalhos realizados vêm promovendo satisfação e boas parcerias dentro do mercado.</p>
-                <br>
-                <p>Tendo como nosso grande objetivo a excelência nos trabalhos prestados, garantimos aos nosso clientes um atendimento customizado e garantia de qualidade absolutamente confiável. Com o uso de modernos e eficientes equipamentos, executamos corte e dobra de chapa sob medida com qualidade e rapidez:</p>
-                <br>
-                <ul>
-                    <li>Corte de chapa na medida fornecida pelo cliente na de espessura 0,50 até 1”</li>
-                    <li>Oxicorte em chapas metálicas com espessura variando de ¼” até 1”</li>
-                    <li>Dobra de Chapas sob medida espessura de 0,50 até ½"</li>
-                    <li>Mão de obra para corte de chapa espessura 0,50 até 1”</li>
-                    <li>Mão de obra para dobra de chapa espessura 0,50 até ½”</li>
-                </ul>
-                <br>
-                <p>E muito mais!</p>
-                <br>
-                <p>Caso o serviço que necessite não esteja listado, consulte-nos por telefone, e-mail ou fax.</p>
-                <br>
-                <p>Estamos sempre à sua disposição.</p>
+                <!--image-->
+                <div class="main_services_image">
+                    <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-corte-plasma-cnc.jpg" alt="Lojas Emofer - Corte de Plasma CNC">
+                </div>
+                <!--end of image-->
             </div>
-            <!--end of content-->
-
         </div>
         <!--end of container-->
     </section>

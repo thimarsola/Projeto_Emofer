@@ -9,7 +9,7 @@
             <!-- header -->
             <header class="main_cta_header">
                 <p>Bem-vindo a Emofer</p>
-                <h1>Aços Planos e Laminados</h1>
+                <h1>Aços Planos, Laminados, Tubulares, Vigas e Acessórios</h1>
             </header>
             <!-- content -->
             <div class="main_cta_content">
@@ -82,16 +82,16 @@
             <div class="main_featured_content">
                 <!-- featured card -->
                 <article class="main_featured_content_card">
-                    <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-viga-laminada.png" alt="Lojas Emofer - Viga Laminada">
+                    <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-viga-laminada.png" alt="Lojas Emofer - Perfil W">
                     <h2>
-                        <a href="<?= get_permalink(get_post(429)); ?>" title="Lojas Emofer - Viga Laminada" target="_blank">Viga Laminada</a>
+                        <a href="<?= get_permalink(get_post(332)); ?>" title="Lojas Emofer - Perfil W" target="_blank">Perfil W</a>
                     </h2>
                 </article>
                 <!-- featured card -->
                 <article class="main_featured_content_card">
-                    <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-tubo-ferro-retangular-galvanizado.png" alt="Lojas Emofer - ubo de Ferro Retangular Galvanizado">
+                    <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-tubo-ferro-retangular-galvanizado.png" alt="Lojas Emofer - Tubo de Ferro">
                     <h2>
-                        <a href="<?= get_permalink(get_post(433)); ?>" title="Lojas Emofer - Tubo de Ferro Retangular Galvanizado" target="_blank">Tubo de Ferro Retangular Galvanizado</a>
+                        <a href="<?= get_permalink(get_post(433)); ?>" title="Lojas Emofer - Tubo de Ferro" target="_blank">Tubo de Ferro</a>
                     </h2>
                 </article>
                 <!-- featured card -->
@@ -125,15 +125,15 @@
                 </article>
                 <!-- viewed card -->
                 <article class="main_viewed_content_card">
-                    <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-viga-u-enrijecida.jpg" alt="Lojas Emofer - Viga U Enrijecida">
-                    <h2>Viga U Enrijecida</h2>
-                    <a href="<?= get_permalink(get_post(418)); ?>" class="btn btn-color1" title="Lojas Emofer - Viga U Enrijecida" target="_blank">Saiba mais</a>
+                    <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-viga-u-enrijecida.jpg" alt="Lojas Emofer - Chapas">
+                    <h2>Chapas</h2>
+                    <a href="<?= get_permalink(get_page_by_title('Chapas')); ?>" class="btn btn-color1" title="Lojas Emofer - Chapas" target="_blank">Saiba mais</a>
                 </article>
                 <!-- viewed card -->
                 <article class="main_viewed_content_card">
-                    <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-viga-i-laminada.jpg" alt="Lojas Emofer - Viga I Laminada">
-                    <h2>Viga I Laminada</h2>
-                    <a href="<?= get_permalink(get_post(406)); ?>" class="btn btn-color1" title="Lojas Emofer - Viga I Laminda" target="_blank">Saiba mais</a>
+                    <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-viga-u-dobrada.jpg" alt="Lojas Emofer - Viga U Dobrada">
+                    <h2>Viga U Dobrada</h2>
+                    <a href="<?= get_permalink(get_post(414)); ?>" class="btn btn-color1" title="Lojas Emofer - Viga U Dobrada" target="_blank">Saiba mais</a>
                 </article>
             </div>
         </div>
@@ -159,7 +159,7 @@
             <div class="main_partners_content">
                 <!-- partner -->
                 <div class="main_partners_content_card">
-                    <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-anglo-americana.png" alt="Parceiro Lojas Emofer - Anglo Americana">
+                    <img src="<?= get_template_directory_uri(); ?>/_cdn/img/img-simec.png" alt="Parceiro Lojas Emofer - Grupo Simec">
                 </div>
                 <!-- partner -->
                 <div class="main_partners_content_card">
